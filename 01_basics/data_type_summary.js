@@ -16,7 +16,7 @@ let userEmail;//undefined
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id==anotherId); //false
+// console.log(id==anotherId); //false
 
 const bigNumber = 77869927726883863739n //(for BigInt)
 
@@ -31,11 +31,34 @@ let myObj={                 //object
     age:22,
 }
 
-console.log(myObj.name);
+// console.log(myObj.name);
 
 const myFunction = function(){
     console.log("Hello World");
 }
 
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+// -------------------------------------------Memory-----------------------------------------------
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myName = "Akshit"
+
+let anotherName = myName
+anotherName = "Raj"
+
+// console.log(anotherName);
+// console.log(myName);
+
+let userOne={
+    email:"akshit28.aayush@gmai.com",
+    upi:"abc@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "Akshit.aayush@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
