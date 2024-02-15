@@ -9,7 +9,7 @@ console.log(null > 0);
 console.log(null == 0);
 console.log(null >=0);
 
-//The reason is that an equality check == and comprison > < >= <= work differently. Comparisons convert null to a number ,
+//The reason is that an equality check == and comparison > < >= <= work differently. Comparisons convert null to a number ,
 // treating it as 0;
 console.log(undefined == 0)
 console.log(undefined>0)
