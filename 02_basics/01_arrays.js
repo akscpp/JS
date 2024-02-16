@@ -23,7 +23,22 @@ const myArr2 = new Array(1,2,3,4)
 // console.log(myArr.includes(9))
 // console.log(myArr.indexOf(9))
 
-// const newArr = myArr.join()  //converts  array elements array to string
+// const newArr = myArr.join()  //converts  array elements to string
+
+// const elements = ['Fire', 'Air', 'Water'];
+
+// console.log(elements.join());
+// // Expected output: "Fire,Air,Water"
+
+// console.log(elements.join(''));
+// // Expected output: "FireAirWater"
+
+// console.log(elements.join(''));
+// // Expected output: "Fire-Air-Water"
+
+
+
+
 // console.log(myArr)
 // console.log(newArr)
 

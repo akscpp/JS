@@ -2,12 +2,16 @@
 
 //singleton ->  If we make object by constructor , then it is singleton
 
-//object literals
+
 // Object.create   //constructor method of creating object -> singleton
+
+
+
+
 
 const mySym = Symbol("key1") //declaration of symbol
 
-
+//                                      object literals
 const JsUser={
     name:"Akshit",
     age:22,
@@ -56,6 +60,7 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JsUser , ${this.name}`)
 }
 
-console.log(JsUser.greeting()) //Funtion 
-console.log(JsUser.greetingTwo()) 
+// console.log(JsUser.greeting()) //Funtion 
+// console.log(JsUser.greetingTwo()) 
+
 
