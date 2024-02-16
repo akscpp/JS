@@ -36,7 +36,7 @@ let str2 = " raj"
 // console.log(str1+str2);
 
 // console.log("1" + 2)    string-> 12
-// console.log(1 + "2")    number ->12
+// console.log(1 + "2")    string ->12
 // console.log("1" + 2 + 2)   string-> 122
 // console.log(1 + 2 + "2");   number-> 32
 
