@@ -20,7 +20,7 @@ function one(){
         console.log(username)
     }
     // console.log(website)
-    // tw o()
+    // two()
 }
 
 // one()

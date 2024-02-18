@@ -7,7 +7,6 @@ function sayMyName(){
     console.log("H")
     console.log("I")
     console.log("T")
-
 }
 
 // sayMyName  //Reference of function
@@ -73,8 +72,7 @@ function handleObject(anyObject){
 
 }
 // handleObject(user)
-handleObject({username : "akshit",
-price:199})
+handleObject({username : "akshit",price:199})
 
 const myNewArray = [200,400,600,1000]
 

@@ -1,8 +1,8 @@
 const myArr = [0,1,2,3,4,5]
 // console.log(myArr[0])
 
-//We copy operation is performed on arrays in JS , it makes shallow copy. 
-// (shallow copy -> reference to same element , not copy is made)
+//when copy operation is performed on arrays in JS , it makes shallow copy. 
+// (shallow copy -> reference to same element , no copy is made)
 
 const myArr2 = new Array(1,2,3,4)
 // console.log(myArr2[2])
@@ -33,7 +33,7 @@ const myArr2 = new Array(1,2,3,4)
 // console.log(elements.join(''));
 // // Expected output: "FireAirWater"
 
-// console.log(elements.join(''));
+// console.log(elements.join('-'));
 // // Expected output: "Fire-Air-Water"
 
 

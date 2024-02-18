@@ -75,12 +75,12 @@ const users = [
 
 // console.log(users[1].email)
 
-// console.log(tinderUser)
-// console.log(Object.keys(tinderUser))    //keys ko liya and arrays me rakh diya , now we can iterate over it
-// console.log(Object.values(tinderUser))
-// console.log(Object.entries(tinderUser))
+console.log(tinderUser)
+console.log(Object.keys(tinderUser))    //keys ko liya and arrays me rakh diya , now we can iterate over it
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -92,10 +92,10 @@ const course = {
     courseInstructor : "raj"
 }
 
-// course.coursename
+console.log(course.coursename);
 
-// const {courseInstructor} = course
-// console.log(courseInstructor)
+const {courseInstructor} = course
+console.log(courseInstructor)
 
 //If we think that courseInstructure is such a big name , use ->
 const {courseInstructor: instructor} = course
@@ -104,7 +104,7 @@ console.log(instructor)
 // APIs
 
 
-// no name , so itis not object , it's JSON 
+// no name , so it is not object , it's JSON 
 // {
 //     "name" : "raj",
 //     "cousename" : "JS",

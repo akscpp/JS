@@ -23,7 +23,7 @@ const anotherString = gameName.slice(-7,5);
 
 console.log(anotherString);
 
-const newSTringOne = "aks-akshit-raj";
+const newSTringOne = "       aks-akshit-raj";
 console.log(newSTringOne);
 console.log(newSTringOne.trim());
 
