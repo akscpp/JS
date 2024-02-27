@@ -1,0 +1,88 @@
+document.getElementById('title').id
+
+document.getElementById('title').class      (no)
+
+document.getElementById('title').className   (yes)
+
+document.getElementById('title').getAttribute('id')
+
+document.getElementById('title').setAttribute('class','test')           //overwrites previous class
+
+document.getElementById('title').setAttribute('class','test heading')   //use this
+
+title.style.backgroundColor="green"
+
+title.innerText
+'DOM learning on Chai aur Code'
+
+title.textContent                                           //displays all texts even if they are hidden by css
+'DOM learning on Chai aur Code test text'
+
+title.innerHTML
+'DOM learning on Chai aur Code <span style="display: none;">test text</span>'                   //shows html tags also
+
+document.querySelector('h2')                //gives only one tag -> for all tages , use querySelector.all
+<h2>​Lorem ipsum dolor sit.​</h2>​
+
+document.querySelector('#title')                              //for selecting id
+<h1 id=​"title" class=​"heading">​…​</h1>​  
+
+document.querySelector('.heading')
+<h1 id=​"title" class=​"heading">​…​</h1>​​
+
+document.querySelector('input[type="password')
+<input type=​"password" name id>​
+
+
+document.querySelector('ul')
+<ul>​…​</ul>​
+const myul=document.querySelector('ul')
+undefined
+myul.querySelector('li')
+<li>​…​</li>​
+const turnGreen=myul.querySelector('li')
+undefined
+turnGreen.st
+undefined
+turnGreen.style.background="green"
+'green'
+
+const tempLiList=document.querySelectorAll('li')            
+undefined
+tempLiList
+NodeList(3) [li, li, li]                                //NodeList is not an  array.
+tempLiList[0].style.color="green"
+'green'
+
+
+const myH1 = document.querySelectorAll('h1')
+undefined
+myH1
+NodeList [h1#title.heading]0: h1#title.headinglength: 1[[Prototype]]: NodeList
+myH1[0].style.color="green"
+'green'
+
+const tempLiList=document.querySelectorAll('li')
+undefined
+tempLiList
+NodeList(3) [li, li, li]
+tempLiList.forEach((l)=>{
+    l.style.backgroundColor="green"
+})
+undefined
+
+
+document.getElementsByClassName('list-item')
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]              //HTMLCollection does have for each or any other loop , so convert it into array
+
+Array.from(tempClassList)
+
+
+const myConvertedArray = Array.from(tempClassList)
+myConvertedArray.forEach((li)=>{
+    li.style.color="orange"
+})
+
+
+
+
