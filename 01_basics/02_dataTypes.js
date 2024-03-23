@@ -27,3 +27,4 @@ let state;
 console.log(typeof isLoggedIn);//boolean
 console.log(typeof null); //object
 console.log(typeof undefined);//undefined
+

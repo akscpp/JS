@@ -4,12 +4,13 @@
 
 // let valueInNum = Number(score)
 
-// console.log(valueInNum);
+// console.log(valueInNum); //NaN
 
 
 //"33" =>33
 // "33abc" => NaN
 // true => 1 ; false =>0
+// NaN => number
 
 // let isLoggedIn = "Akshit"
 
@@ -19,6 +20,7 @@
 // 0 => false
 // "" => false
 // "akshit" => true
+
 
 // let someNum = 33
 // let strNum  = String(someNum)
